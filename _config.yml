@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: life is there
+title: 인생은 있다
 description: 시작하면 굴러간다
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://comicolon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://localhost" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
