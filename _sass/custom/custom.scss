@@ -1,6 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
-
-.nanumgothic * {
- font-family: 'Nanum Gothic' !important;
-}
+blockquote {
+    // border: 1px solid #6e1062;
+    margin-left: 2em;
+    margin-right: 0px;
+    padding-left: 2em;
+    padding-right: 20px;
+    border-left: 5px solid #6e1062;
+  }
