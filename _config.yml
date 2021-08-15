@@ -127,3 +127,10 @@ compress_html:
   #   envs: all
 
 theme: "just-the-docs"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
