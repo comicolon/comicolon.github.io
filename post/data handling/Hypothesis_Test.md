@@ -6,7 +6,6 @@ parent : data handling
 has_children: false
 nav_order : 5
 use_math : true
-mathjax : true
 ---
 
 # Hypothesis Test
@@ -58,12 +57,58 @@ p-value
 ## x2 test
 + 관찰된 빈도가 기대되는 빈도와 유의미 하게 다른지 검증
 + __범주형__ 자료로 구성된 데이터 분석에 사용
-+ $ x^2 = \sum (관측값 - 기대값)^2) / 기대값$
++ $ x^2 = \sum (관측값 - 기대값)^2 / 기대값$
 
 
 ## 자유도 (Degrees of Freedom)
 
 자유도 = n - 1
+
+## ANOVA test
+
+2개 이상의 그룹에 평균이 차이가 나는지 확인하는 검정방법  
+여러개를 하나씩 비교할 경우 애러가 커지기 때문에  
+한꺼번에 비교하는 방법이 필요함.  
+<br/>
+
+이를 위한 지표 __F-statistic__   
+<br/>
+F 값이 높다는 의미  
+
+1. 분자[다른 그룹끼리의 분산]는 크고 분모 (전체 그룹의 분산)는 작아야 함
+2. 즉 __다른 그룹 끼리의 분포가 다를 것이다__ 라는 가정이 붙음
+
+### scipy 로 구현
+```python
+from scipy.stats import f_oneway
+
+f_oneway(g1, g2, g3)
+```
+
+## 큰 수의 법칙 (Law of large numbers )
+
+sample 데이터의 수가 커질 수록, sample의 통계치는 점점 모집단의 모수와 같아진다.
+
+## 중심 극한 정리 (Central Limit Theorem, CLT)
+
+Sample 데이터의 수가 많아질 수록, sample의 평균은 **정규분포**에 근사한 형태로 나타난다.
+
+## 신뢰 구간 (Confidence Interval)
+
+예측하는 구간이 **넓어질 수록** 맞을 확률은 **올라감**
+
+> 신뢰도가 95% 라는 의미는 표본을 100번 뽑았을때 95번은 신뢰구간 내에 모집단의 평균이 포함된다.
+
+
+<br/>
+<br/>
+
+## 베이지안 통계 (Bayesian Inference)
+
+## 조건부 확률
+
+
+
 
 
 
