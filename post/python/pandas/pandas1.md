@@ -24,7 +24,7 @@ messenger_list = [
 ]
 column_name = ['name', 'since', 'user']
 
-df = pd.DataFrame.(messenger_list, columns = column_name, 
+df = pd.DataFrame(messenger_list, columns = column_name, 
     index=['a','b','c'])
 ```
 
