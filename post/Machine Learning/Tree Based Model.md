@@ -7,7 +7,7 @@ has_children: false
 nav_order : 3
 use_math : true
 date : 21-08-25
-# last_modified_date : 2021-08-06
+last_modified_date : 2021-08-27
 ---
 
 # Tree Based Model
@@ -113,6 +113,17 @@ Bagging이란 bootstrap aggregating을 의미한다. 그리고 bootstrap이란 �
 <br/>
 
 ## 범주형 자료의 다른 인코딩 방법인 순서형(ordinal) 인코딩
+
+순서형 인코딩은 범주에 숫자를 맵핑한다.  
+['a', 'b', 'c'] -> [1, 2, 3]
+
+<br/>
+
+## 트리 앙상블 모델이 결정트리보다 상대적으로 과적합을 피할 수 있는 이유
+
+1. 랜덤포레스트에 사용되는 트리들은 배깅을 통해 만들어진다. 이 때 각 기본트리에 사용되는 데이터가 랜덤으로 선택된다.
+2. 각각 트리는 무작위로 선택된 특성들을 가지고 분기를 수행한다.
+
 
 
 
