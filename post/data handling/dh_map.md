@@ -9,5 +9,10 @@ nav_order : 0
 
 # Mind Map
 
-![map](../../assets/images/Data_handling2.png)
+![map](../../assets/images/Data_handling2.png)()
 ![map2](../../assets/images/Linear_algebra.png)
+
+[![alt](썸네일이미지)](원본이미지)
+
+[![map](../../assets/images/Data_handling2.png)](../../assets/images/Data_handling2.png)
+[![map2](../../assets/images/Linear_algebra.png)](../../assets/images/Linear_algebra.png)
