@@ -9,4 +9,4 @@ nav_order : 0
 
 # Map
 
-[![map](../../assets/images/Machine%20Learning.png)](../../../assets/images/Machine%20Learning.png)
+[![map](../../../assets/images/Machine%20Learning.png)](../../../assets/images/Machine%20Learning.png)
