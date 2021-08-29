@@ -9,6 +9,5 @@ nav_order : 0
 
 # Mind Map
 
-![map](../../assets/images/Data%20handling2.png)
-![map2](../../assets/images/Linear%20algebra.png)
-
+![map](../../assets/images/Data_handling2.png)
+![map2](../../assets/images/Linear_algebra.png)
